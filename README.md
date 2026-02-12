@@ -157,6 +157,14 @@ This allows GitHub Copilot (Agent mode) to invoke risk analysis directly inside 
 - Iteratively refined console formatting and risk visualization
 - Copilot Chat and Agent mode were used inside VS Code to accelerate development, iterate on    feature ideas, and validate logic across multiple files.
 
+## Demo Screenshots
+
+### Full Risk Report View
+![Risk Report Overview](docs/demo-1-overview.png)
+
+### Simulation & Trend Analysis
+![Simulation and Trend](docs/demo-2-simulation-trend.png)
+
 ## License
 
 ISC
