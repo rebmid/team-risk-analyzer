@@ -1,6 +1,8 @@
 # Team Risk Analyzer
 
-Team Risk Analyzer is an MCP-enabled CLI that evaluates PRs, issues, and meeting data to calculate a team risk score. It exposes the analysis through an MCP server so GitHub Copilot can run risk checks directly inside VS Code
+Team Risk Analyzer is an MCP-enabled CLI that analyzes PRs, issues, and meeting data to calculate a structured team risk score. Through an MCP server, GitHub Copilot can run these risk checks directly inside VS Code.
+
+Teams generate large volumes of workflow data, but rarely turn it into actionable insight. This tool converts that activity into clear delivery health signals and recommended actions, without leaving the developer workflow.
 
 ## Overview
 
@@ -160,10 +162,13 @@ This allows GitHub Copilot (Agent mode) to invoke risk analysis directly inside 
 ## Demo Screenshots
 
 ### Full Risk Report View
-![Risk Report Overview](docs/demo-1-overview.png)
+![Risk Report Overview](docs/demo-1-cli-overview.png)
 
 ### Simulation & Trend Analysis
 ![Simulation and Trend](docs/demo-2-simulation-trend.png)
+
+### MCP Copilot Invocation
+![MCP Copilot](docs/demo-3-mcp-copilot-invocation.png)
 
 ## License
 
