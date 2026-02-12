@@ -138,13 +138,26 @@ No credentials, PII, or external API keys are included.
 
 ## MCP Integration
 
-An MCP server is exposed via:
+The MCP server exposes a tool called `analyze_team_risk` that GitHub Copilot can invoke directly in VS Code.
 
-```
-analyze_team_risk
+### Setup
+
+Add the following to your VS Code MCP settings (`.vscode/mcp.json` in the workspace or user settings):
+
+```json
+{
+  "servers": {
+    "team-risk-analyzer": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["mcp/server.js"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}
 ```
 
-This allows GitHub Copilot (Agent mode) to invoke risk analysis directly inside VS Code.
+Once configured, GitHub Copilot (Agent mode) can run team risk analysis by invoking the `analyze_team_risk` tool.
 
 ## How GitHub Copilot Was Used
 
