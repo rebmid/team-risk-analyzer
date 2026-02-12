@@ -1,0 +1,8 @@
+{
+  "mcp.servers": {
+    "team-risk-analyzer": {
+      "command": "node",
+      "args": ["./mcp/server.js"]
+    }
+  }
+}

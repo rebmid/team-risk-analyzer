@@ -1,0 +1,6 @@
+[
+  { "id": "m1", "title": "Sprint Planning", "date": "2026-02-03", "hasActionItems": false, "actionCreated": false },
+  { "id": "m2", "title": "PR Review Sync", "date": "2026-02-06", "hasActionItems": true, "actionCreated": true },
+  { "id": "m3", "title": "Incident Review", "date": "2026-02-07", "hasActionItems": false, "actionCreated": false }
+]
+

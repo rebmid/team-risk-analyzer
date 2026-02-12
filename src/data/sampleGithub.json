@@ -1,0 +1,16 @@
+{
+  "pullRequests": [
+    { "id": 1, "author": "alex", "createdAt": "2026-01-15", "status": "open", "title": "Refactor API" },
+    { "id": 2, "author": "sam", "createdAt": "2026-02-05", "status": "open", "title": "Fix auth bug" },
+    { "id": 3, "author": "alex", "createdAt": "2026-01-20", "status": "open", "title": "Add caching" }
+  ],
+  "issues": [
+    { "id": 101, "assignee": "alex", "labels": ["blocked"], "title": "Deployment failing" },
+    { "id": 102, "assignee": "alex", "labels": [], "title": "Update docs" },
+    { "id": 103, "assignee": "alex", "labels": [], "title": "Telemetry gaps" },
+    { "id": 104, "assignee": "alex", "labels": [], "title": "Performance spike" },
+    { "id": 105, "assignee": "alex", "labels": [], "title": "Lint cleanup" },
+    { "id": 106, "assignee": "alex", "labels": [], "title": "Test coverage" },
+    { "id": 107, "assignee": "sam", "labels": [], "title": "UI polish" }
+  ]
+}
